@@ -6,6 +6,9 @@ body {
 body > header {
     background-color: orange;
     color: white;
+    display: flex;
+    height: 12vh;
+    justify-content: space-around;
 }
 
 body > footer {
@@ -43,3 +46,25 @@ h1 {
 p {
     font-size: 1vw;
 }
+
+#nav-ul {
+    display: flex;
+}
+
+#nav-ul > li {
+    padding: 8px;
+    margin: 18px;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbutton {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border: 1px solid white;
+    border-radius: 10%;
+ }
